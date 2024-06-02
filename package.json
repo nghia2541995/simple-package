@@ -1,0 +1,43 @@
+{
+  "name": "eslint-config-uit",
+  "version": "1.0.0",
+  "description": "Config ESLint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "exports": {
+    "./eslint/*": "./eslint/*.js",
+    "./typescript": "./typescript/tsconfig.base.json"
+  },
+  "dependencies": {
+    "@babel/core": "^7.24.6",
+    "@babel/eslint-parser": "^7.24.6",
+    "eslint": "^9.4.0",
+    "eslint-plugin-eslint-plugin": "^6.1.0",
+    "mocha": "^10.4.0",
+    "eslint-plugin-react": ">=7.31.8",
+    "eslint-plugin-vue": ">=9.5.1",
+    "@babel/preset-react": "7.x",
+    "@typescript-eslint/eslint-plugin": ">=5.55.0",
+    "@typescript-eslint/parser": ">=5.0.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-jest": "^27.9.0",
+    "eslint-plugin-jsx-a11y": "^6.8.0",
+    "eslint-plugin-playwright": "^1.5.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-testing-library": "^6.2.0",
+    "eslint-plugin-tsdoc": "^0.2.17",
+    "eslint-plugin-unicorn": "^51.0.1",
+    "eslint-plugin-vitest": "^0.3.22"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "typescript": "^5.3.3"
+  }
+}
